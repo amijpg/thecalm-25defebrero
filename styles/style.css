@@ -85,28 +85,29 @@ body{
 }
 
 
-.card{
+.card-1{
     width:25%;
-    border: none; 
-    box-shadow: none;
+    justify-content: center;
+    flex: wrap;
 }
 
-.card button{
+.card-1 button{
     border-radius: 26vh;
     background: #333;
     text-decoration: none;
     border: 0;
-    padding: 1vh;
+    padding: 1vh 10vh;
 }
-.card button:hover{
+.card-1 button:hover{
     transform: scale(1.1); 
 }
 
-.card img{
+.card-1 img{
     border-radius: 50%;
-    
+    width: 30vh;
+ 
 }
-.card a{
+.card-1 a{
     text-decoration: none;
     color: #fff;
 }
@@ -133,9 +134,7 @@ body{
     overflow: hidden; 
     object-fit: cover; 
     margin-left: 49%;
-    align-items: center;
-    
-    
+    align-items: center;    
 }
 
 .blur-box button{
